@@ -5,163 +5,173 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Chapter Five | What Love Isn’t</title>
+<title>Chapter Five | Reclaiming Life | What Love Isn’t</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 html{
-    scroll-behavior:smooth;
+scroll-behavior:smooth;
 }
 
 body{
-    background:#07101d;
-    color:#f4ede2;
-    font-family:'Open Sans', sans-serif;
-    overflow-x:hidden;
+background:#07101d;
+color:#f4ede2;
+font-family:'Open Sans',sans-serif;
+overflow-x:hidden;
 }
 
-/* HERO */
-
 .hero{
-    width:100%;
-    padding:120px 20px 60px;
-    text-align:center;
+width:100%;
+padding:120px 20px 60px;
+text-align:center;
 }
 
 .hero h1{
-    font-family:'Cormorant Garamond', serif;
-    font-size:5rem;
-    color:#f2c57c;
-    margin-bottom:20px;
+font-family:'Cormorant Garamond',serif;
+font-size:5rem;
+color:#f2c57c;
+margin-bottom:10px;
+line-height:1.1;
+}
+
+.hero h2{
+font-family:'Cormorant Garamond',serif;
+font-size:2rem;
+font-weight:400;
+color:#ddd0c0;
+margin-bottom:25px;
 }
 
 .hero p{
-    max-width:700px;
-    margin:auto;
-    line-height:1.9;
-    font-size:1.15rem;
-    color:#ddd0c0;
+max-width:700px;
+margin:auto;
+line-height:1.9;
+font-size:1.15rem;
+color:#ddd0c0;
 }
 
-/* CHAPTER */
-
 .chapter-section{
-    width:100%;
-    padding:20px 20px 100px;
+width:100%;
+padding:20px 20px 100px;
 }
 
 .chapter-container{
-    max-width:900px;
-    margin:auto;
+max-width:900px;
+margin:auto;
 }
 
 .chapter-card{
-    background:#132032;
-    padding:60px 50px;
-    border-radius:30px;
-    border:1px solid rgba(242,197,124,0.08);
-    box-shadow:0 10px 30px rgba(0,0,0,0.25);
+background:#132032;
+padding:60px 50px;
+border-radius:30px;
+border:1px solid rgba(242,197,124,.08);
+box-shadow:0 10px 30px rgba(0,0,0,.25);
 }
 
 .chapter-text{
-    font-size:1.12rem;
-    line-height:2.2;
-    color:#d7dce5;
+font-size:1.12rem;
+line-height:2.2;
+color:#d7dce5;
 }
 
 .chapter-text p{
-    margin-bottom:35px;
+margin-bottom:35px;
 }
 
-/* NAVIGATION */
+.dialogue{
+padding-left:25px;
+font-style:italic;
+color:#f2c57c;
+border-left:2px solid rgba(242,197,124,.3);
+}
 
 .page-navigation{
-    margin-top:60px;
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
+margin-top:60px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
 .page-navigation a{
-    text-decoration:none;
-    color:#f2c57c;
-    border:1px solid rgba(242,197,124,0.25);
-    padding:14px 24px;
-    border-radius:30px;
-    transition:0.3s;
+text-decoration:none;
+color:#f2c57c;
+border:1px solid rgba(242,197,124,.25);
+padding:14px 24px;
+border-radius:30px;
+transition:.3s;
 }
 
 .page-navigation a:hover{
-    background:#f2c57c;
-    color:#07101d;
+background:#f2c57c;
+color:#07101d;
 }
 
-/* FOOTER */
-
 footer{
-    padding:70px 20px;
-    text-align:center;
-    background:#050b14;
-    border-top:1px solid rgba(242,197,124,0.08);
+padding:70px 20px;
+text-align:center;
+background:#050b14;
+border-top:1px solid rgba(242,197,124,.08);
 }
 
 .footer-links{
-    margin-top:20px;
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
+margin-top:20px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
 .footer-links a{
-    color:#f2c57c;
-    text-decoration:none;
-    transition:0.3s;
+color:#f2c57c;
+text-decoration:none;
+transition:.3s;
 }
 
 .footer-links a:hover{
-    color:white;
+color:white;
 }
 
 .web-design{
-    margin-top:40px;
-    line-height:2;
-    color:#9aa6b5;
-    font-size:0.95rem;
+margin-top:40px;
+line-height:2;
+color:#9aa6b5;
+font-size:.95rem;
 }
 
 .web-design a{
-    color:#f2c57c;
-    text-decoration:none;
+color:#f2c57c;
+text-decoration:none;
 }
 
 .web-design a:hover{
-    color:white;
+color:white;
 }
-
-/* MOBILE */
 
 @media(max-width:768px){
 
 .hero h1{
-    font-size:3.4rem;
+font-size:3.2rem;
+}
+
+.hero h2{
+font-size:1.5rem;
 }
 
 .chapter-card{
-    padding:40px 30px;
+padding:40px 30px;
 }
 
 .chapter-text{
-    font-size:1.05rem;
+font-size:1.03rem;
 }
 
 }
@@ -172,21 +182,21 @@ footer{
 
 <body>
 
-<!-- HERO -->
-
 <section class="hero">
 
 <h1>
 Chapter Five
 </h1>
 
+<h2>
+Reclaiming Life
+</h2>
+
 <p>
-Peace often feels unfamiliar to people who spent years surviving emotional chaos, fear, and instability.
+Healing sometimes arrives through ordinary moments that quietly remind the heart how to live again.
 </p>
 
 </section>
-
-<!-- CHAPTER -->
 
 <section class="chapter-section">
 
@@ -197,67 +207,87 @@ Peace often feels unfamiliar to people who spent years surviving emotional chaos
 <div class="chapter-text">
 
 <p>
-Justin once believed healing would arrive as a dramatic moment where every wound suddenly disappeared forever.
+Weeks turned into months, and Justin began to feel the world differently. The nightmares came less often, and the panic attacks grew less frequent. He started noticing small joys again: the warmth of morning sunlight, the smell of fresh coffee, and the gentle rhythm of rain against the windows that no longer pulled him into old memories.
 </p>
 
 <p>
-Real healing looked different.
+Brad remained a steady presence. He never demanded anything from Justin. Some days they walked through the city together, sometimes talking, sometimes quiet. Other days they sat in the church courtyard, listening to the wind and sharing conversation that drifted between laughter and silence. Brad never asked for details about the abuse and never tried to repair what had been broken. He simply showed that trust could be rebuilt, that care could be consistent, and that someone could choose to stay.
 </p>
 
 <p>
-Healing appeared quietly through ordinary moments that no longer carried fear. Calm conversations stopped feeling dangerous. Silence no longer meant punishment. Rest became possible without guilt following close behind.
+One afternoon, Trisha invited Justin to help with the church youth group’s art project. Normally he would have hesitated, afraid he might overreact to noise or sudden movement, or feel trapped by responsibility. This time he agreed.
 </p>
 
 <p>
-For the first time in years, Justin noticed peace entering parts of his life that survival once controlled completely.
+Brad was there, working beside him.
+</p>
+
+<p class="dialogue">
+“Remember when we were kids?” Brad said with a grin. “You used to draw the strangest cartoons and give them ridiculous names.”
+</p>
+
+<p class="dialogue">
+Justin laughed. “And you always tried to make them look normal.”
+</p>
+
+<p class="dialogue">
+Brad chuckled. “Some things never change. You were always the creative one.”
 </p>
 
 <p>
-Certain memories still hurt. Certain seasons still carried grief. Healing had not erased the past.
+Justin realized it had been a long time since he had laughed like that, truly laughed. Something in him eased, a small knot of tension loosening after years of being wound too tightly.
 </p>
 
 <p>
-Healing simply stopped allowing the past to define his entire identity.
+Later, he sat alone on the edge of the playground, looking down at his hands. They were steady now. No trembling. No ghost of bruises past. He remembered the nights when Sam had left him broken and afraid, and he also remembered the nights when Brad had simply been there, letting him breathe.
 </p>
 
 <p>
-Justin slowly discovered that strength was not found through enduring endless mistreatment. Strength appeared when he finally chose honesty, boundaries, safety, and emotional truth.
+It struck him that healing was not about erasing Sam. It was about reclaiming his life in spite of him. It was about choosing sunlight when the storm had tried to keep him in the dark.
 </p>
 
 <p>
-People who once controlled him no longer determined his worth. Fear no longer owned every decision. Anxiety no longer controlled every relationship.
+Brad approached, holding two cups of lemonade.
+</p>
+
+<p class="dialogue">
+“Victory drink?” he said.
+</p>
+
+<p class="dialogue">
+Justin smiled. “Yes, victory drink.”
 </p>
 
 <p>
-That freedom changed him.
+They clinked their cups together. A quiet confidence settled in Justin’s chest, something he had not felt in years. Sam’s memory might still try to creep in, but Justin had built boundaries strong enough to protect himself and surrounded himself with people who helped him keep those boundaries steady.
 </p>
 
 <p>
-He laughed more easily. Rest came more naturally. Hope no longer felt impossible to imagine.
+That evening, Justin texted Trisha to thank her for always being there. He could not find the words to describe how much she had helped him heal. Her reply was simple, a heart emoji, but it said everything that needed to be said.
 </p>
 
 <p>
-Most importantly, Justin finally understood something his heart had needed for years.
+As he got ready for bed, Justin caught his reflection in the mirror. The scars were still visible, but his eyes held strength now, and his jaw carried quiet resolve. He had survived Sam. He had survived the fear, the shame, and the endless nights. And he was still standing.
 </p>
 
 <p>
-Love was never supposed to destroy him.
+Brad knocked on his door before he turned out the light.
+</p>
+
+<p class="dialogue">
+“Night,” he said softly.
+</p>
+
+<p class="dialogue">
+“Night,” Justin replied, smiling.
 </p>
 
 <p>
-Real love protects peace. Genuine care leaves room for honesty. Healthy connection allows people to remain themselves without fear of punishment, shame, abandonment, or emotional control.
+For the first time in years, sleep came without trembling and without panic. It was not perfect, but it was real. It was freedom. And Justin finally understood that healing was not a single moment but a slow process built through trust, boundaries, and the presence of those who stayed.
 </p>
 
 <p>
-The journey had not been easy.
-</p>
-
-<p>
-The healing had not been quick.
-</p>
-
-<p>
-Yet somewhere along the way, Justin stopped surviving and finally began living again.
+For the first time, he believed that life could feel safe again.
 </p>
 
 </div>
@@ -280,37 +310,22 @@ Next Page
 
 </section>
 
-<!-- FOOTER -->
-
 <footer>
 
 <div class="footer-links">
 
-<a href="index.html">
-Home
-</a>
-
-<a href="contents.html">
-Contents
-</a>
-
-<a href="closingthoughts.html">
-Closing Thoughts
-</a>
-
-<a href="prayerofcommitment.html">
-Prayer
-</a>
-
-<a href="abouttheauthor.html">
-Author
-</a>
+<a href="index.html">Home</a>
+<a href="contents.html">Contents</a>
+<a href="closingthoughts.html">Closing Thoughts</a>
+<a href="prayerofcommitment.html">Prayer</a>
+<a href="abouttheauthor.html">Author</a>
 
 </div>
 
 <div class="web-design">
 
 Designed by
+
 <a href="http://brad-hobbswd.github.io/brad-hobbswd" target="_blank">
 Brad Hobbs Web Design
 </a>
