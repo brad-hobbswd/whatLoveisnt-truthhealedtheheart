@@ -5,163 +5,173 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Chapter Three | What Love Isn’t</title>
+<title>Chapter Three | Learning to Trust Again | What Love Isn’t</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 html{
-    scroll-behavior:smooth;
+scroll-behavior:smooth;
 }
 
 body{
-    background:#07101d;
-    color:#f4ede2;
-    font-family:'Open Sans', sans-serif;
-    overflow-x:hidden;
+background:#07101d;
+color:#f4ede2;
+font-family:'Open Sans',sans-serif;
+overflow-x:hidden;
 }
 
-/* HERO */
-
 .hero{
-    width:100%;
-    padding:120px 20px 60px;
-    text-align:center;
+width:100%;
+padding:120px 20px 60px;
+text-align:center;
 }
 
 .hero h1{
-    font-family:'Cormorant Garamond', serif;
-    font-size:5rem;
-    color:#f2c57c;
-    margin-bottom:20px;
+font-family:'Cormorant Garamond',serif;
+font-size:5rem;
+color:#f2c57c;
+margin-bottom:10px;
+line-height:1.1;
+}
+
+.hero h2{
+font-family:'Cormorant Garamond',serif;
+font-size:2rem;
+font-weight:400;
+color:#ddd0c0;
+margin-bottom:25px;
 }
 
 .hero p{
-    max-width:700px;
-    margin:auto;
-    line-height:1.9;
-    font-size:1.15rem;
-    color:#ddd0c0;
+max-width:700px;
+margin:auto;
+line-height:1.9;
+font-size:1.15rem;
+color:#ddd0c0;
 }
 
-/* CHAPTER */
-
 .chapter-section{
-    width:100%;
-    padding:20px 20px 100px;
+width:100%;
+padding:20px 20px 100px;
 }
 
 .chapter-container{
-    max-width:900px;
-    margin:auto;
+max-width:900px;
+margin:auto;
 }
 
 .chapter-card{
-    background:#132032;
-    padding:60px 50px;
-    border-radius:30px;
-    border:1px solid rgba(242,197,124,0.08);
-    box-shadow:0 10px 30px rgba(0,0,0,0.25);
+background:#132032;
+padding:60px 50px;
+border-radius:30px;
+border:1px solid rgba(242,197,124,.08);
+box-shadow:0 10px 30px rgba(0,0,0,.25);
 }
 
 .chapter-text{
-    font-size:1.12rem;
-    line-height:2.2;
-    color:#d7dce5;
+font-size:1.12rem;
+line-height:2.2;
+color:#d7dce5;
 }
 
 .chapter-text p{
-    margin-bottom:35px;
+margin-bottom:35px;
 }
 
-/* NAVIGATION */
+.dialogue{
+padding-left:25px;
+font-style:italic;
+color:#f2c57c;
+border-left:2px solid rgba(242,197,124,.3);
+}
 
 .page-navigation{
-    margin-top:60px;
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
+margin-top:60px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
 .page-navigation a{
-    text-decoration:none;
-    color:#f2c57c;
-    border:1px solid rgba(242,197,124,0.25);
-    padding:14px 24px;
-    border-radius:30px;
-    transition:0.3s;
+text-decoration:none;
+color:#f2c57c;
+border:1px solid rgba(242,197,124,.25);
+padding:14px 24px;
+border-radius:30px;
+transition:.3s;
 }
 
 .page-navigation a:hover{
-    background:#f2c57c;
-    color:#07101d;
+background:#f2c57c;
+color:#07101d;
 }
 
-/* FOOTER */
-
 footer{
-    padding:70px 20px;
-    text-align:center;
-    background:#050b14;
-    border-top:1px solid rgba(242,197,124,0.08);
+padding:70px 20px;
+text-align:center;
+background:#050b14;
+border-top:1px solid rgba(242,197,124,.08);
 }
 
 .footer-links{
-    margin-top:20px;
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
+margin-top:20px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
 .footer-links a{
-    color:#f2c57c;
-    text-decoration:none;
-    transition:0.3s;
+color:#f2c57c;
+text-decoration:none;
+transition:.3s;
 }
 
 .footer-links a:hover{
-    color:white;
+color:white;
 }
 
 .web-design{
-    margin-top:40px;
-    line-height:2;
-    color:#9aa6b5;
-    font-size:0.95rem;
+margin-top:40px;
+line-height:2;
+color:#9aa6b5;
+font-size:.95rem;
 }
 
 .web-design a{
-    color:#f2c57c;
-    text-decoration:none;
+color:#f2c57c;
+text-decoration:none;
 }
 
 .web-design a:hover{
-    color:white;
+color:white;
 }
-
-/* MOBILE */
 
 @media(max-width:768px){
 
 .hero h1{
-    font-size:3.4rem;
+font-size:3.2rem;
+}
+
+.hero h2{
+font-size:1.5rem;
 }
 
 .chapter-card{
-    padding:40px 30px;
+padding:40px 30px;
 }
 
 .chapter-text{
-    font-size:1.05rem;
+font-size:1.03rem;
 }
 
 }
@@ -172,21 +182,21 @@ footer{
 
 <body>
 
-<!-- HERO -->
-
 <section class="hero">
 
 <h1>
 Chapter Three
 </h1>
 
+<h2>
+Learning to Trust Again
+</h2>
+
 <p>
-Boundaries often become the first act of healing for people who spent years believing survival required silence.
+Healing rarely arrives all at once. Sometimes trust returns quietly through people who remain gentle with wounded hearts.
 </p>
 
 </section>
-
-<!-- CHAPTER -->
 
 <section class="chapter-section">
 
@@ -197,63 +207,83 @@ Boundaries often become the first act of healing for people who spent years beli
 <div class="chapter-text">
 
 <p>
-Justin feared boundaries long before he ever understood their purpose.
+The weeks that followed settled into a rhythm Justin had not expected. Trisha continued to bring him to church, insisting that even if he did not believe, being around people who cared could only help. Justin protested in silence, but curiosity kept him going.
 </p>
 
 <p>
-Saying no felt dangerous. Disagreement created anxiety. Protecting his own peace carried guilt he could barely explain.
+Brad was always there. Sometimes he played guitar with the youth group. Other times he helped set up chairs or handed out programs. He smiled at Justin as if it were nothing, but Justin noticed. Each time their eyes met, he felt a flicker of warmth that both comforted and unsettled him.
 </p>
 
 <p>
-For years, survival taught him that keeping other people comfortable mattered more than protecting himself.
+At first, Justin kept his distance. He was afraid of what it meant to open up, even in small ways. Sam’s memory lingered, and every time Justin imagined growing close to someone new, he feared it would end the same way, with trust broken and another part of him bruised.
 </p>
 
 <p>
-Whenever exhaustion overwhelmed him, another voice inside immediately accused him of selfishness. Fear convinced him that boundaries would eventually cause abandonment.
+One evening, Trisha insisted they stop for coffee after service. Justin tried to refuse, but Brad was already sitting at a table, his guitar case resting beside him.
+</p>
+
+<p class="dialogue">
+“Hey,” Brad said, smiling as Justin approached. “I’ve been meaning to ask. Do you play?”
+</p>
+
+<p class="dialogue">
+Justin shook his head. “Not really. I used to, a long time ago.”
+</p>
+
+<p class="dialogue">
+“That’s all right,” Brad said. “We all have our pasts.”
 </p>
 
 <p>
-That fear kept him trapped longer than he realized.
+His tone was gentle and without pressure, and that small moment of understanding made Justin feel safer than he had in months.
 </p>
 
 <p>
-Healing began changing slowly once Justin encountered people who respected honesty instead of punishing it.
+For a while, they sat quietly. Then Brad spoke again:
+</p>
+
+<p class="dialogue">
+“I don’t know your story, and I’m not going to ask for it. But if you ever need someone to sit with, I’ll do that. No judgment. No expectations.”
 </p>
 
 <p>
-Healthy individuals did not threaten him for needing space. They did not manipulate his emotions whenever he expressed discomfort. They listened.
+Justin swallowed hard. That was new. He was used to people pushing, prying, or trying to fix him before he was ready. Brad offered something different. Presence. A kind of quiet steadiness Justin had not realized he needed.
 </p>
 
 <p>
-That kind of safety felt unfamiliar at first.
+Over the next few weeks, their friendship grew naturally. They did not rush into deep conversations. Sometimes they sat together during the service. Other times they walked around the church courtyard, laughing over childhood memories and the awkward moments they shared with Trisha growing up.
 </p>
 
 <p>
-Justin slowly realized that boundaries were never walls built from hatred. Boundaries became protection for peace, emotional stability, honesty, and healing.
+Justin began to notice changes within himself. He laughed more, though carefully. He no longer flinched when someone brushed his arm. He started to breathe again without feeling the weight of Sam’s shadow pressing on him.
 </p>
 
 <p>
-For the first time, he allowed himself to step away from conversations that harmed him. He stopped apologizing for every emotion. He stopped carrying responsibility for fixing everyone else.
+There were still nights when the memories came. He would wake drenched in sweat, hearing Sam’s voice or seeing his face. But now, instead of letting the panic overtake him, he would reach for his phone, see a message from Trisha, or remember Brad’s quiet strength. The fear still came, but it no longer swallowed him whole.
 </p>
 
 <p>
-Some people became angry when they lost control over him.
+One afternoon, while they were helping set up chairs for the youth group, Justin hesitated before lifting a heavy stack. Brad noticed immediately.
+</p>
+
+<p class="dialogue">
+“You okay?” he asked.
+</p>
+
+<p class="dialogue">
+Justin paused, the weight of both the chairs and his thoughts heavy in his hands. “Yeah,” he said finally. “Just thinking.”
 </p>
 
 <p>
-That reaction revealed more truth than words ever could.
+Brad nodded and stayed nearby without saying another word. That simple act, staying close without needing to fix anything, felt like something sacred. It reminded Justin that not everyone would hurt him, that some people were safe to stand beside.
 </p>
 
 <p>
-People who benefit from silence often become uncomfortable when healing teaches somebody how to speak.
+It was not love, at least not yet. It was trust. Trust that he could exist near someone without fear. Trust that someone could see him as more than his pain. Trust that healing could begin without being shattered again.
 </p>
 
 <p>
-Justin finally began understanding that protecting his peace was not cruelty.
-</p>
-
-<p>
-Real love never demands self destruction in exchange for connection.
+For Justin, that was everything.
 </p>
 
 </div>
@@ -276,37 +306,22 @@ Next Page
 
 </section>
 
-<!-- FOOTER -->
-
 <footer>
 
 <div class="footer-links">
 
-<a href="index.html">
-Home
-</a>
-
-<a href="contents.html">
-Contents
-</a>
-
-<a href="closingthoughts.html">
-Closing Thoughts
-</a>
-
-<a href="prayerofcommitment.html">
-Prayer
-</a>
-
-<a href="abouttheauthor.html">
-Author
-</a>
+<a href="index.html">Home</a>
+<a href="contents.html">Contents</a>
+<a href="closingthoughts.html">Closing Thoughts</a>
+<a href="prayerofcommitment.html">Prayer</a>
+<a href="abouttheauthor.html">Author</a>
 
 </div>
 
 <div class="web-design">
 
 Designed by
+
 <a href="http://brad-hobbswd.github.io/brad-hobbswd" target="_blank">
 Brad Hobbs Web Design
 </a>
