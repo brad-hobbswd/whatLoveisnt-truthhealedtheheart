@@ -3,6 +3,9 @@
 
 A story of survival, healing, trust, boundaries, and discovering that real love never destroys the soul.
 
+🌐 Live Website:  
+https://brad-hobbswd.github.io/whatLoveisnt-truthhealedtheheart
+
 ---
 
 ## About
@@ -18,6 +21,14 @@ This story explores:
 - Friendship and safe relationships  
 - Faith and restoration  
 - Learning that love should never require fear
+
+---
+
+## Read Online
+
+Visit the full interactive book experience:
+
+https://brad-hobbswd.github.io/whatLoveisnt-truthhealedtheheart
 
 ---
 
@@ -42,13 +53,13 @@ This story explores:
 
 ## Website Features
 
-- Fully responsive design
-- Immersive reading experience
-- Chapter navigation system
-- Mobile friendly layout
-- Dark atmospheric styling
-- Story progression with page linking
-- GitHub Pages compatible
+- Fully responsive design  
+- Immersive reading experience  
+- Chapter navigation system  
+- Mobile friendly layout  
+- Dark atmospheric styling  
+- Story progression with connected pages  
+- GitHub Pages compatible  
 
 ---
 
@@ -60,17 +71,17 @@ Bradley Hobbs is a writer and creative designer with a passion for healing cente
 
 His work reflects compassion for those rebuilding trust and rediscovering peace after difficult seasons of life.
 
----
-
-## Website
-
-Brad Hobbs Web Design
+Author website:
 
 http://brad-hobbswd.github.io/brad-hobbswd
 
 ---
 
-## Message
+## Read the Story
+
+https://brad-hobbswd.github.io/whatLoveisnt-truthhealedtheheart
+
+---
 
 Healing remains possible.
 
