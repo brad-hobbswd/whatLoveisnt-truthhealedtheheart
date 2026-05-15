@@ -5,163 +5,173 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Chapter Seven | What Love Isn’t</title>
+<title>Chapter Seven | Standing Tall | What Love Isn’t</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 html{
-    scroll-behavior:smooth;
+scroll-behavior:smooth;
 }
 
 body{
-    background:#07101d;
-    color:#f4ede2;
-    font-family:'Open Sans', sans-serif;
-    overflow-x:hidden;
+background:#07101d;
+color:#f4ede2;
+font-family:'Open Sans',sans-serif;
+overflow-x:hidden;
 }
 
-/* HERO */
-
 .hero{
-    width:100%;
-    padding:120px 20px 60px;
-    text-align:center;
+width:100%;
+padding:120px 20px 60px;
+text-align:center;
 }
 
 .hero h1{
-    font-family:'Cormorant Garamond', serif;
-    font-size:5rem;
-    color:#f2c57c;
-    margin-bottom:20px;
+font-family:'Cormorant Garamond',serif;
+font-size:5rem;
+color:#f2c57c;
+margin-bottom:10px;
+line-height:1.1;
+}
+
+.hero h2{
+font-family:'Cormorant Garamond',serif;
+font-size:2rem;
+font-weight:400;
+color:#ddd0c0;
+margin-bottom:25px;
 }
 
 .hero p{
-    max-width:700px;
-    margin:auto;
-    line-height:1.9;
-    font-size:1.15rem;
-    color:#ddd0c0;
+max-width:700px;
+margin:auto;
+line-height:1.9;
+font-size:1.15rem;
+color:#ddd0c0;
 }
 
-/* CHAPTER */
-
 .chapter-section{
-    width:100%;
-    padding:20px 20px 100px;
+width:100%;
+padding:20px 20px 100px;
 }
 
 .chapter-container{
-    max-width:900px;
-    margin:auto;
+max-width:900px;
+margin:auto;
 }
 
 .chapter-card{
-    background:#132032;
-    padding:60px 50px;
-    border-radius:30px;
-    border:1px solid rgba(242,197,124,0.08);
-    box-shadow:0 10px 30px rgba(0,0,0,0.25);
+background:#132032;
+padding:60px 50px;
+border-radius:30px;
+border:1px solid rgba(242,197,124,.08);
+box-shadow:0 10px 30px rgba(0,0,0,.25);
 }
 
 .chapter-text{
-    font-size:1.12rem;
-    line-height:2.2;
-    color:#d7dce5;
+font-size:1.12rem;
+line-height:2.2;
+color:#d7dce5;
 }
 
 .chapter-text p{
-    margin-bottom:35px;
+margin-bottom:35px;
 }
 
-/* NAVIGATION */
+.dialogue{
+padding-left:25px;
+font-style:italic;
+color:#f2c57c;
+border-left:2px solid rgba(242,197,124,.3);
+}
 
 .page-navigation{
-    margin-top:60px;
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
+margin-top:60px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
 .page-navigation a{
-    text-decoration:none;
-    color:#f2c57c;
-    border:1px solid rgba(242,197,124,0.25);
-    padding:14px 24px;
-    border-radius:30px;
-    transition:0.3s;
+text-decoration:none;
+color:#f2c57c;
+border:1px solid rgba(242,197,124,.25);
+padding:14px 24px;
+border-radius:30px;
+transition:.3s;
 }
 
 .page-navigation a:hover{
-    background:#f2c57c;
-    color:#07101d;
+background:#f2c57c;
+color:#07101d;
 }
 
-/* FOOTER */
-
 footer{
-    padding:70px 20px;
-    text-align:center;
-    background:#050b14;
-    border-top:1px solid rgba(242,197,124,0.08);
+padding:70px 20px;
+text-align:center;
+background:#050b14;
+border-top:1px solid rgba(242,197,124,.08);
 }
 
 .footer-links{
-    margin-top:20px;
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
+margin-top:20px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
 .footer-links a{
-    color:#f2c57c;
-    text-decoration:none;
-    transition:0.3s;
+color:#f2c57c;
+text-decoration:none;
+transition:.3s;
 }
 
 .footer-links a:hover{
-    color:white;
+color:white;
 }
 
 .web-design{
-    margin-top:40px;
-    line-height:2;
-    color:#9aa6b5;
-    font-size:0.95rem;
+margin-top:40px;
+line-height:2;
+color:#9aa6b5;
+font-size:.95rem;
 }
 
 .web-design a{
-    color:#f2c57c;
-    text-decoration:none;
+color:#f2c57c;
+text-decoration:none;
 }
 
 .web-design a:hover{
-    color:white;
+color:white;
 }
-
-/* MOBILE */
 
 @media(max-width:768px){
 
 .hero h1{
-    font-size:3.4rem;
+font-size:3.2rem;
+}
+
+.hero h2{
+font-size:1.5rem;
 }
 
 .chapter-card{
-    padding:40px 30px;
+padding:40px 30px;
 }
 
 .chapter-text{
-    font-size:1.05rem;
+font-size:1.03rem;
 }
 
 }
@@ -172,21 +182,21 @@ footer{
 
 <body>
 
-<!-- HERO -->
-
 <section class="hero">
 
 <h1>
 Chapter Seven
 </h1>
 
+<h2>
+Standing Tall
+</h2>
+
 <p>
-Freedom becomes real when healing no longer feels temporary and peace finally begins feeling like home.
+Healing becomes visible when peace no longer feels temporary and strength begins to feel natural.
 </p>
 
 </section>
-
-<!-- CHAPTER -->
 
 <section class="chapter-section">
 
@@ -197,75 +207,107 @@ Freedom becomes real when healing no longer feels temporary and peace finally be
 <div class="chapter-text">
 
 <p>
-Justin stood one evening beneath the quiet glow of the fading sunset and realized something had changed inside him.
+Spring had arrived, and with it came a sense of quiet renewal. Justin could feel it in the air, in the warm sunlight, in the soft breeze, in the way the city seemed to hum with life. It mirrored the change inside him. He no longer flinched at loud noises, no longer woke drenched in sweat from nightmares. Each day felt lighter, freer.
 </p>
 
 <p>
-The fear that once followed him everywhere no longer controlled every thought.
+He was sitting at a café one morning when his phone buzzed. His heart skipped. He recognized the number immediately.
+</p>
+
+<p class="dialogue">
+Justin. It’s Sam. We need to talk.
 </p>
 
 <p>
-Certain memories still existed. Certain scars still remained. Healing had not erased the past completely.
+For a moment, panic clawed at him, just as it had in the past. Then he looked around, breathed deeply, and remembered everything he had built, the boundaries, the trust in himself, the safety he had created with Brad. He did not answer.
 </p>
 
 <p>
-Yet the past no longer held authority over his future.
+Another message came, insistent and desperate.
+</p>
+
+<p class="dialogue">
+I made a mistake. Please. I need you.
 </p>
 
 <p>
-That realization felt unfamiliar at first.
+Justin stared at the screen and then locked the phone. He did not feel fear this time. He felt calm. He knew Sam had not truly changed, but he also knew he was stronger than the hold Sam once had over him. Survival was not enough. Healing meant choosing himself.
 </p>
 
 <p>
-For years, survival convinced Justin that pain would always define him. Fear taught him to expect instability. Emotional exhaustion trained him to believe peace could disappear at any moment.
+Later that day, he met Brad at the park. They walked along the river, sunlight dancing on the water. Justin’s steps were confident, measured, no longer weighed down by dread.
+</p>
+
+<p class="dialogue">
+“Something is wrong?” Brad asked, noticing Justin’s tight smile.
+</p>
+
+<p class="dialogue">
+“Sam,” Justin said simply. “He is reaching out again.”
+</p>
+
+<p class="dialogue">
+Brad nodded. “And?”
+</p>
+
+<p class="dialogue">
+“I am not responding,” Justin said, firm. “I have built my life. I have built myself. I will not let him take that away.”
 </p>
 
 <p>
-Now, however, something deeper existed within him.
+Brad smiled, pride clear in his eyes.
+</p>
+
+<p class="dialogue">
+“Good. That is exactly the choice you need to make. You are not his anymore.”
 </p>
 
 <p>
-Confidence.
+Justin felt something he had not felt in years, control over his own life. He realized he could choose who entered his world, who stayed, and who deserved his energy. It was not about hatred or revenge. It was about self preservation, strength, and dignity.
 </p>
 
 <p>
-Not arrogance. Not denial. Not emotional numbness.
+As they walked, Brad reached over and gave Justin’s shoulder a light squeeze.
+</p>
+
+<p class="dialogue">
+“You have come so far. I am proud of you. And I will be here every step of the way.”
 </p>
 
 <p>
-Steady confidence born through healing, honesty, boundaries, truth, and finally understanding his own worth.
+Justin smiled genuinely, a laugh tugging at the corner of his lips.
+</p>
+
+<p class="dialogue">
+“Thanks, Brad. I think I am finally starting to believe that it is possible to be safe, to trust, and maybe even to love again someday.”
 </p>
 
 <p>
-Justin no longer apologized for protecting his peace. He no longer abandoned himself in order to keep unhealthy people comfortable.
+Brad’s eyes softened.
+</p>
+
+<p class="dialogue">
+“Whenever you are ready, Justin. No rush. No pressure. Just the world waiting for you to step fully into it.”
 </p>
 
 <p>
-Healthy love had taught him something survival never could.
+For the first time, Justin felt the truth of those words. His past with Sam no longer defined him. The abuse, the fear, the sleepless nights were memories, painful but no longer controlling. He had reclaimed his life, piece by piece, and built a foundation strong enough to stand on.
 </p>
 
 <p>
-Real relationships should never require somebody to disappear in order to remain accepted.
+They reached the edge of the river, watching the sunlight ripple across the water. Justin took a deep breath, filling his lungs with freedom.
+</p>
+
+<p class="dialogue">
+“I am done surviving,” he said softly. “I am ready to live.”
 </p>
 
 <p>
-That truth changed the way he viewed everything.
+Brad smiled, and in that moment Justin knew he was not alone. He had built a life with people who cared for him, who respected his boundaries, and who would never allow him to fall back into fear.
 </p>
 
 <p>
-The future no longer looked frightening. Hope no longer felt unreachable. Genuine peace no longer felt temporary.
-</p>
-
-<p>
-For the first time in his life, Justin finally believed something beautiful could continue existing without fear eventually destroying it.
-</p>
-
-<p>
-Healing had not made him weak.
-</p>
-
-<p>
-Healing had finally made him free.
+The past was behind him. The future was his. For the first time in years, Justin felt the peace he had been searching for, steady, unwavering, and real.
 </p>
 
 </div>
@@ -288,31 +330,15 @@ Next Page
 
 </section>
 
-<!-- FOOTER -->
-
 <footer>
 
 <div class="footer-links">
 
-<a href="index.html">
-Home
-</a>
-
-<a href="contents.html">
-Contents
-</a>
-
-<a href="closingthoughts.html">
-Closing Thoughts
-</a>
-
-<a href="prayerofcommitment.html">
-Prayer
-</a>
-
-<a href="abouttheauthor.html">
-Author
-</a>
+<a href="index.html">Home</a>
+<a href="contents.html">Contents</a>
+<a href="closingthoughts.html">Closing Thoughts</a>
+<a href="prayerofcommitment.html">Prayer</a>
+<a href="abouttheauthor.html">Author</a>
 
 </div>
 
