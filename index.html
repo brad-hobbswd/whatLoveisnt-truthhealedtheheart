@@ -34,30 +34,27 @@ body{
     width:100%;
     min-height:100vh;
     display:flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
     text-align:center;
     padding:40px 20px;
 }
 
-.hero-content{
-    max-width:900px;
-}
-
-.hero h1{
-    font-family:'Cormorant Garamond', serif;
-    font-size:5rem;
-    line-height:1.1;
-    margin-bottom:25px;
-    color:#f2c57c;
-}
-
-.hero p{
-    font-size:1.3rem;
-    line-height:1.9;
-    color:#ddd0c0;
-    max-width:750px;
+.hero-banner{
+    width:100%;
+    max-width:1300px;
     margin:auto;
+    border-radius:30px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,0.45);
+    border:1px solid rgba(242,197,124,0.15);
+}
+
+.hero-banner img{
+    width:100%;
+    display:block;
+    object-fit:cover;
 }
 
 .hero-buttons{
@@ -252,12 +249,9 @@ footer{
 
 @media(max-width:768px){
 
-.hero h1{
-    font-size:3.3rem;
-}
-
-.hero p{
-    font-size:1.05rem;
+.hero{
+    min-height:auto;
+    padding:30px 15px;
 }
 
 .section-title{
@@ -280,29 +274,11 @@ footer{
 
 }
 
-    .hero-banner{
-    width:100%;
-    max-width:1300px;
-    margin:auto;
-    border-radius:30px;
-    overflow:hidden;
-    box-shadow:0 15px 40px rgba(0,0,0,0.45);
-    border:1px solid rgba(242,197,124,0.15);
-}
-
-.hero-banner img{
-    width:100%;
-    display:block;
-    object-fit:cover;
-}
-
 </style>
 
 </head>
 
 <body>
-
-<!-- HERO -->
 
 <!-- HERO -->
 
@@ -325,7 +301,7 @@ About the Author
 </a>
 
 </div>
-</div>
+
 </section>
 
 <!-- ABOUT BOOK -->
