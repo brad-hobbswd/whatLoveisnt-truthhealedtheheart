@@ -38,14 +38,14 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-padding:40px 20px;
+padding:35px 20px;
 }
 
 .hero-banner{
 width:100%;
 max-width:1300px;
 margin:auto;
-border-radius:30px;
+border-radius:25px;
 overflow:hidden;
 box-shadow:0 15px 40px rgba(0,0,0,.45);
 border:1px solid rgba(242,197,124,.15);
@@ -58,16 +58,16 @@ object-fit:cover;
 }
 
 .hero-buttons{
-margin-top:30px;
+margin-top:25px;
 display:flex;
 justify-content:center;
-gap:16px;
+gap:15px;
 flex-wrap:wrap;
 }
 
 .hero-buttons a{
 text-decoration:none;
-padding:16px 34px;
+padding:15px 32px;
 border-radius:40px;
 font-size:1rem;
 font-weight:600;
@@ -101,7 +101,7 @@ color:#07101d;
 
 .section{
 width:100%;
-padding:80px 20px;
+padding:70px 18px;
 }
 
 .container{
@@ -113,51 +113,54 @@ margin:auto;
 font-family:'Cormorant Garamond',serif;
 font-size:3rem;
 color:#f2c57c;
-margin-bottom:25px;
+margin-bottom:22px;
 text-align:center;
 }
 
 .section-text{
-font-size:1.1rem;
-line-height:2;
+font-size:1.05rem;
+line-height:1.9;
 color:#ddd0c0;
 text-align:center;
 max-width:900px;
 margin:auto;
 }
 
-/* BOOK GRID */
+/* CARDS */
 
 .book-grid{
-margin-top:50px;
+margin-top:40px;
 display:grid;
 grid-template-columns:repeat(3,1fr);
-gap:30px;
+gap:14px;
 }
 
 .book-card{
 background:#132032;
-padding:35px;
-border-radius:28px;
+padding:22px;
+border-radius:24px;
 transition:.4s;
 border:1px solid rgba(242,197,124,.08);
 }
 
 .book-card:hover{
-transform:translateY(-8px);
+transform:translateY(-6px);
 border-color:#d6b06a;
 }
 
 .book-card h3{
 font-family:'Cormorant Garamond',serif;
-font-size:2rem;
-margin-bottom:15px;
+font-size:1.6rem;
+margin-bottom:10px;
 color:#f2c57c;
+text-align:center;
 }
 
 .book-card p{
-line-height:1.8;
+line-height:1.7;
 color:#d7dce5;
+font-size:.92rem;
+text-align:center;
 }
 
 /* QUOTE */
@@ -170,19 +173,19 @@ text-align:center;
 .quote{
 font-family:'Cormorant Garamond',serif;
 font-size:2.3rem;
-line-height:1.7;
+line-height:1.6;
 color:#f2c57c;
-max-width:900px;
+max-width:850px;
 margin:auto;
 }
 
-/* NAVIGATION */
+/* NAV */
 
 .navigation-links{
-margin-top:45px;
+margin-top:35px;
 display:flex;
 justify-content:center;
-gap:16px;
+gap:12px;
 flex-wrap:wrap;
 }
 
@@ -190,7 +193,7 @@ flex-wrap:wrap;
 text-decoration:none;
 color:#f2c57c;
 border:1px solid rgba(242,197,124,.25);
-padding:14px 24px;
+padding:12px 18px;
 border-radius:30px;
 transition:.4s;
 background:rgba(255,255,255,.02);
@@ -199,23 +202,21 @@ background:rgba(255,255,255,.02);
 .navigation-links a:hover{
 background:#f2c57c;
 color:#07101d;
-transform:translateY(-3px);
 }
 
 /* FOOTER */
 
 footer{
-padding:50px 20px;
+padding:45px 20px;
 text-align:center;
 background:#050b14;
 border-top:1px solid rgba(242,197,124,.08);
 }
 
 .footer-links{
-margin-top:20px;
 display:flex;
 justify-content:center;
-gap:20px;
+gap:18px;
 flex-wrap:wrap;
 }
 
@@ -230,12 +231,12 @@ color:white;
 
 .web-design{
 margin-top:25px;
-line-height:2;
+line-height:1.9;
 color:#9aa6b5;
 font-size:.95rem;
 }
 
-/* TABLET + MOBILE */
+/* TABLET */
 
 @media(max-width:1024px){
 
@@ -244,56 +245,37 @@ min-height:auto;
 padding:20px 15px;
 }
 
-.hero-banner{
-border-radius:20px;
-}
-
 .section{
-padding:55px 16px;
+padding:50px 15px;
 }
 
 .section-title{
-font-size:2.3rem;
+font-size:2.2rem;
 }
-
-.section-text{
-font-size:1rem;
-line-height:1.8;
-}
-
-/* horizontal cards */
 
 .book-grid{
-display:flex;
-overflow-x:auto;
-gap:16px;
-padding-bottom:10px;
-scroll-snap-type:x mandatory;
-scrollbar-width:none;
-margin-top:35px;
-}
-
-.book-grid::-webkit-scrollbar{
-display:none;
+gap:10px;
 }
 
 .book-card{
-min-width:260px;
-flex:0 0 auto;
-padding:24px;
-scroll-snap-align:start;
+padding:18px;
 }
 
 .book-card h3{
-font-size:1.7rem;
+font-size:1.4rem;
+}
+
+.book-card p{
+font-size:.88rem;
 }
 
 .quote{
-font-size:1.7rem;
-line-height:1.5;
+font-size:1.8rem;
 }
 
 }
+
+/* MOBILE */
 
 @media(max-width:768px){
 
@@ -308,11 +290,30 @@ max-width:260px;
 }
 
 .section{
-padding:45px 14px;
+padding:40px 14px;
 }
 
 .section-title{
 font-size:2rem;
+}
+
+.book-grid{
+grid-template-columns:repeat(3,1fr);
+gap:8px;
+}
+
+.book-card{
+padding:14px;
+border-radius:18px;
+}
+
+.book-card h3{
+font-size:1.1rem;
+}
+
+.book-card p{
+font-size:.75rem;
+line-height:1.45;
 }
 
 .quote{
@@ -367,17 +368,17 @@ This story was written for survivors, for those rebuilding trust, and for anyone
 
 <div class="book-card">
 <h3>Healing</h3>
-<p>Healing begins when fear no longer controls the heart. Emotional restoration and peace become possible.</p>
+<p>Healing begins when fear no longer controls the heart.</p>
 </div>
 
 <div class="book-card">
 <h3>Boundaries</h3>
-<p>Healthy boundaries become protection that allows growth, trust, and emotional safety.</p>
+<p>Healthy boundaries create safety and peace.</p>
 </div>
 
 <div class="book-card">
 <h3>Hope</h3>
-<p>Freedom, joy, and safe love can still be found after surviving difficult seasons.</p>
+<p>Safe love and restoration remain possible.</p>
 </div>
 
 </div>
