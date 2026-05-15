@@ -5,163 +5,173 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Chapter Four | What Love Isn’t</title>
+<title>Chapter Four | Breakthroughs and Boundaries | What Love Isn’t</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 html{
-    scroll-behavior:smooth;
+scroll-behavior:smooth;
 }
 
 body{
-    background:#07101d;
-    color:#f4ede2;
-    font-family:'Open Sans', sans-serif;
-    overflow-x:hidden;
+background:#07101d;
+color:#f4ede2;
+font-family:'Open Sans',sans-serif;
+overflow-x:hidden;
 }
 
-/* HERO */
-
 .hero{
-    width:100%;
-    padding:120px 20px 60px;
-    text-align:center;
+width:100%;
+padding:120px 20px 60px;
+text-align:center;
 }
 
 .hero h1{
-    font-family:'Cormorant Garamond', serif;
-    font-size:5rem;
-    color:#f2c57c;
-    margin-bottom:20px;
+font-family:'Cormorant Garamond',serif;
+font-size:5rem;
+color:#f2c57c;
+margin-bottom:10px;
+line-height:1.1;
+}
+
+.hero h2{
+font-family:'Cormorant Garamond',serif;
+font-size:2rem;
+font-weight:400;
+color:#ddd0c0;
+margin-bottom:25px;
 }
 
 .hero p{
-    max-width:700px;
-    margin:auto;
-    line-height:1.9;
-    font-size:1.15rem;
-    color:#ddd0c0;
+max-width:700px;
+margin:auto;
+line-height:1.9;
+font-size:1.15rem;
+color:#ddd0c0;
 }
 
-/* CHAPTER */
-
 .chapter-section{
-    width:100%;
-    padding:20px 20px 100px;
+width:100%;
+padding:20px 20px 100px;
 }
 
 .chapter-container{
-    max-width:900px;
-    margin:auto;
+max-width:900px;
+margin:auto;
 }
 
 .chapter-card{
-    background:#132032;
-    padding:60px 50px;
-    border-radius:30px;
-    border:1px solid rgba(242,197,124,0.08);
-    box-shadow:0 10px 30px rgba(0,0,0,0.25);
+background:#132032;
+padding:60px 50px;
+border-radius:30px;
+border:1px solid rgba(242,197,124,.08);
+box-shadow:0 10px 30px rgba(0,0,0,.25);
 }
 
 .chapter-text{
-    font-size:1.12rem;
-    line-height:2.2;
-    color:#d7dce5;
+font-size:1.12rem;
+line-height:2.2;
+color:#d7dce5;
 }
 
 .chapter-text p{
-    margin-bottom:35px;
+margin-bottom:35px;
 }
 
-/* NAVIGATION */
+.dialogue{
+padding-left:25px;
+font-style:italic;
+color:#f2c57c;
+border-left:2px solid rgba(242,197,124,.3);
+}
 
 .page-navigation{
-    margin-top:60px;
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
+margin-top:60px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
 .page-navigation a{
-    text-decoration:none;
-    color:#f2c57c;
-    border:1px solid rgba(242,197,124,0.25);
-    padding:14px 24px;
-    border-radius:30px;
-    transition:0.3s;
+text-decoration:none;
+color:#f2c57c;
+border:1px solid rgba(242,197,124,.25);
+padding:14px 24px;
+border-radius:30px;
+transition:.3s;
 }
 
 .page-navigation a:hover{
-    background:#f2c57c;
-    color:#07101d;
+background:#f2c57c;
+color:#07101d;
 }
 
-/* FOOTER */
-
 footer{
-    padding:70px 20px;
-    text-align:center;
-    background:#050b14;
-    border-top:1px solid rgba(242,197,124,0.08);
+padding:70px 20px;
+text-align:center;
+background:#050b14;
+border-top:1px solid rgba(242,197,124,.08);
 }
 
 .footer-links{
-    margin-top:20px;
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
+margin-top:20px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
 .footer-links a{
-    color:#f2c57c;
-    text-decoration:none;
-    transition:0.3s;
+color:#f2c57c;
+text-decoration:none;
+transition:.3s;
 }
 
 .footer-links a:hover{
-    color:white;
+color:white;
 }
 
 .web-design{
-    margin-top:40px;
-    line-height:2;
-    color:#9aa6b5;
-    font-size:0.95rem;
+margin-top:40px;
+line-height:2;
+color:#9aa6b5;
+font-size:.95rem;
 }
 
 .web-design a{
-    color:#f2c57c;
-    text-decoration:none;
+color:#f2c57c;
+text-decoration:none;
 }
 
 .web-design a:hover{
-    color:white;
+color:white;
 }
-
-/* MOBILE */
 
 @media(max-width:768px){
 
 .hero h1{
-    font-size:3.4rem;
+font-size:3.2rem;
+}
+
+.hero h2{
+font-size:1.5rem;
 }
 
 .chapter-card{
-    padding:40px 30px;
+padding:40px 30px;
 }
 
 .chapter-text{
-    font-size:1.05rem;
+font-size:1.03rem;
 }
 
 }
@@ -172,21 +182,21 @@ footer{
 
 <body>
 
-<!-- HERO -->
-
 <section class="hero">
 
 <h1>
 Chapter Four
 </h1>
 
+<h2>
+Breakthroughs and Boundaries
+</h2>
+
 <p>
-Healing rarely arrives all at once. Trust rebuilds slowly through safety, honesty, consistency, and peace.
+Healing sometimes looks like choosing safety after years of surviving storms.
 </p>
 
 </section>
-
-<!-- CHAPTER -->
 
 <section class="chapter-section">
 
@@ -197,67 +207,107 @@ Healing rarely arrives all at once. Trust rebuilds slowly through safety, honest
 <div class="chapter-text">
 
 <p>
-Justin did not suddenly wake up healed one morning.
+It had been nearly three months since Justin began attending church with Trisha and getting to know Brad. Life had grown lighter in quiet, almost unnoticeable ways. He could sleep a little longer. He could laugh without forcing it. He could even imagine a future that did not include Sam’s shadow. But the past has a way of finding you, no matter how far you run.
 </p>
 
 <p>
-Fear still lingered inside ordinary moments. Loud voices tightened his chest. Sudden tension caused anxiety before his mind fully understood why.
+It happened on a rainy Wednesday afternoon. Justin was sitting on the couch, scrolling through his phone, when a message appeared from an unknown number.
+</p>
+
+<p class="dialogue">
+Justin. It’s Sam. We need to talk.
 </p>
 
 <p>
-Healing often moved slower than people expected.
+His stomach dropped. His hands turned cold. Every muscle in his body tightened, just as they had during the worst nights with Sam. For a moment, he sat frozen, remembering every lie, every betrayal, every bruise. Then he thought of Brad. He thought of Trisha. He thought of the slow, steady kindness that had helped him start to breathe again.
 </p>
 
 <p>
-Some days felt peaceful. Other days reopened emotions he thought had already disappeared. Certain memories still carried weight. Certain conversations still left him exhausted.
+He did not reply.
 </p>
 
 <p>
-For the first time in his life, however, Justin stopped condemning himself for needing time.
+The phone buzzed again.
+</p>
+
+<p class="dialogue">
+Please. I want to see you. Just one last time.
 </p>
 
 <p>
-He slowly began surrounding himself with people who listened instead of controlling. Safe conversations replaced emotional confusion. Honesty no longer felt dangerous.
+Justin’s mind told him to ignore it. But a small part of him, the part that still wanted to believe in the man he once loved, hesitated.
 </p>
 
 <p>
-Healthy relationships introduced something unfamiliar to him.
+A knock sounded at the door. His heart raced. He was not expecting anyone. When he opened it, Brad stood there, rain dripping from his jacket.
+</p>
+
+<p class="dialogue">
+“I had a feeling you might need backup,” Brad said gently, holding out a towel. “I know the look you get when you see Sam’s name on your phone.”
+</p>
+
+<p class="dialogue">
+Justin exhaled, his voice unsteady. “He says he wants to see me. One last time. I don’t know what to do.”
 </p>
 
 <p>
-Consistency.
+Brad stepped closer but did not touch him.
+</p>
+
+<p class="dialogue">
+“You don’t owe him anything,” he said. “Not a word, not a meeting, not a goodbye that puts you in harm’s way. You’re allowed to protect yourself.”
 </p>
 
 <p>
-Nobody used silence to punish him. Nobody manipulated his emotions to gain control. Nobody forced him to sacrifice peace in order to maintain connection.
+Tears welled in Justin’s eyes. He had never known what it felt like for someone to care without condition, to stand beside him when his world felt unsteady.
+</p>
+
+<p class="dialogue">
+“I want to believe he’s changed,” Justin whispered.
+</p>
+
+<p class="dialogue">
+Brad shook his head softly. “He hasn’t. And even if he had, that isn’t your responsibility. You’re not required to give him another chance. You’re responsible for keeping yourself safe.”
 </p>
 
 <p>
-That kind of safety initially felt uncomfortable.
+Justin nodded slowly. His hands trembled as he picked up the phone and typed a single reply.
+</p>
+
+<p class="dialogue">
+I am not available. Do not contact me again.
 </p>
 
 <p>
-Trauma often teaches people to expect chaos. Peace can feel unfamiliar after surviving emotional instability for too long.
+He set the phone down and leaned back, shaking. Brad sat beside him in silence, giving him space to breathe, to feel the mix of fear and relief settling in his chest.
 </p>
 
 <p>
-Justin slowly learned that calmness was not emptiness. Safety was not weakness. Boundaries were not cruelty.
+After a while, Justin let himself rest against Brad’s shoulder. It felt safe. He did not have to flinch or brace himself. The storm that had defined his life with Sam was finally over. Setting that boundary did not build a wall. It built a shield.
 </p>
 
 <p>
-Healing began teaching him something survival never could.
+Healing, Justin realized, was not about erasing the past or pretending the pain never happened. It was about standing tall, scars and all, and deciding who and what could have access to his heart.
 </p>
 
 <p>
-Real love creates room for peace to exist.
+Brad placed a hand on his shoulder.
+</p>
+
+<p class="dialogue">
+“You’re stronger than you think,” he said quietly.
+</p>
+
+<p class="dialogue">
+Justin closed his eyes and nodded. “Maybe. But I couldn’t have done it alone.”
+</p>
+
+<p class="dialogue">
+“You won’t have to,” Brad said.
 </p>
 
 <p>
-For the first time in years, Justin no longer felt like he was disappearing inside relationships.
-</p>
-
-<p>
-He finally began feeling safe enough to become himself again.
+And for the first time in months, Justin felt the weight of fear lift just enough to let him breathe. He was not free from the past, but he was free to move forward. That freedom, at last, felt like the beginning of something real.
 </p>
 
 </div>
@@ -280,37 +330,22 @@ Next Page
 
 </section>
 
-<!-- FOOTER -->
-
 <footer>
 
 <div class="footer-links">
 
-<a href="index.html">
-Home
-</a>
-
-<a href="contents.html">
-Contents
-</a>
-
-<a href="closingthoughts.html">
-Closing Thoughts
-</a>
-
-<a href="prayerofcommitment.html">
-Prayer
-</a>
-
-<a href="abouttheauthor.html">
-Author
-</a>
+<a href="index.html">Home</a>
+<a href="contents.html">Contents</a>
+<a href="closingthoughts.html">Closing Thoughts</a>
+<a href="prayerofcommitment.html">Prayer</a>
+<a href="abouttheauthor.html">Author</a>
 
 </div>
 
 <div class="web-design">
 
 Designed by
+
 <a href="http://brad-hobbswd.github.io/brad-hobbswd" target="_blank">
 Brad Hobbs Web Design
 </a>
